@@ -1,0 +1,28 @@
+.error-div {
+    display: block !important;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: fit-content;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+   padding-left: 3px;
+   padding-right: 4px;
+   padding-top: 5px;
+   
+}
+
+.hide {
+    display: none  !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.error-div span {
+    margin-top: 23px;
+    font-size: 20px;
+}
